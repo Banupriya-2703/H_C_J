@@ -379,7 +379,7 @@ p {
 	flex-direction: column;
 	max-width: 1200px;
 	width: 90%;
-	margin-top: -240px;
+	/* margin-top: -240px; */
 }
 #contact .contact-items {
 	width: 100%;
@@ -535,10 +535,11 @@ p {
 	/* contact  */
 	#contact .contact {
 		flex-direction: column;
-		padding: 50px 0;
+		padding: 100px 0;
 		align-items: center;
 		justify-content: center;
 		min-width: 20vh;
+		margin-top: -190px;
 	}
 	#contact .contact-items {
 		width: 100%;
@@ -546,7 +547,6 @@ p {
 		flex-direction: row;
 		justify-content: space-evenly;
 		margin: 0;
-		
 	}
 	#contact .contact-item {
 		width: 30%;
@@ -592,6 +592,13 @@ p {
 		display: none;
 	}
 	/* End header */
+
+	#contact .contact {
+		flex-direction: column;
+		max-width: 1200px;
+		width: 90%;
+		margin-top: -240px;
+	}
 
 	#services .service-bottom .service-item {
 		flex-basis: 22%;
